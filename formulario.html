@@ -1,0 +1,110 @@
+<html>
+<head>
+  <title> Formulario </title>
+</head>
+<body bgcolor="#eee9e9">
+ <h1 align="center">Cadastre-se no nosso Website!!</h1>
+ <table border="0" align="center" width="50">
+<tr> <td>
+   <fieldset> <!--Contorno ou Margem do formulario-->
+    <legend> Digite seus dados </legend> <!--Informação da margem do formulario-->
+
+   <form action="enviar.php" method="get" name="cadrastro">
+    <table border="0">
+      <tr>
+       <td><label>&nbsp;&nbsp;Nome:</label></td>
+       <td><input type="text" id="name" value="Digite Seu Nome" size="85%"></td>
+      </tr>
+      <tr>
+       <td><label>&nbsp;&nbsp;Nascimento:</label></td>
+       <td><input type="text" size="4" id="name" name="Digite Seu Nome">/ 
+           <input type="text" size="4" id="name" name="Digite Seu Nome">/ 
+           <input type="text" size="4" id="name" name="Digite Seu Nome">&nbsp;<label>Local:</label>
+           <input type="text" id="name" size="40%">
+       </td>
+      <tr>
+       <td><label>&nbsp;&nbsp;Nacionalidade</label></td>
+       <td><input type="text" id="name" size="34%"></td>
+      </tr>
+      <tr>
+       <td><label>&nbsp;&nbsp;Toca Algum Instrumento?</label></td>
+       <td><input type="radio" id="song">Sim</input><input type="radio" id="song">Não</input></td>
+      <tr>
+       <td><label>&nbsp;&nbsp;Quais?</label></td>
+       <td><input type="checkbox" id="Guitar">Guitarra</input>
+        <br>
+       <input type="checkbox" id="Baixo">Baixo</input>
+        <br>
+       <input type="checkbox" id="Batery">Bateria</input>
+        <br>
+       <input type="checkbox" id="outhers">Outros</input>
+        <br>
+       <input type="checkbox" id="no">Nenhum(Não toque)</input></td>
+        <br>
+        <br>
+      </tr>
+      <tr>
+       <td><label>&nbsp;&nbsp;E-mail:</label></td>
+       <td><input type="mail" id="mail" size="39%"></td>
+      </tr>
+      <tr>
+       <td><label>&nbsp;&nbsp;Endereço Residencial:</label></td>
+       <td><input type="text" id="end" size="56%"></td>
+      </tr>
+      <tr>
+       <td><label>&nbsp;&nbsp;Cidade:</label></td>
+       <td><input type="text" id="city" size="39%"><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UF:</label>
+        <select name="Estado">
+         <option value="MG">MG</option>
+         <option value="AC">AC</option>
+         <option value="AP">AP</option>
+         <option value="AM">AM</option>
+         <option value="BA">BA</option>
+         <option value="CE">CE</option>
+         <option value="DF">DF</option>
+         <option value="ES">ES</option>
+         <option value="GO">GO</option>
+         <option value="MA">MA</option>
+         <option value="MT">MT</option>
+         <option value="MS">MS</option>
+         <option value="PA">PA</option>
+         <option value="PB">PB</option>
+         <option value="PR">PR</option>
+         <option value="PI">PI</option>
+         <option value="RJ">RJ</option>
+         <option value="RN">RN</option>
+         <option value="RS">RS</option>
+         <option value="RO">RO</option>
+         <option value="RR">RR</option>
+         <option value="SC">SC</option>
+         <option value="SP">SP</option>
+         <option value="SE">SE</option>
+         <option value="TO">TO</option>
+        </select></td>
+      <tr>
+       <td><label>&nbsp;&nbsp;Telefone:</label>
+       <td><input type="text" id="phone" size="26%"></input>
+           <label>&nbsp;&nbsp;Fax:</label>
+           <input type="text" id="fax" value="(Campo desabilitado)" disabled="desativado"size="26%">
+       </td>
+      <tr>
+       <td><label>&nbsp;&nbsp;Sobre Você:</label></td>
+       <td><textarea rows="15" cols="37"></textarea></td>
+     </table>
+    </td>
+   </tr>
+  </table>
+  <p align="center"><table border="0">
+   <th>
+    <button onclick type="submit"><img src="enviar.png"></button>
+    <button onclick type="reset"><img src="apagar.png"></button>
+   </th>
+  </p>
+</table>
+</form>
+</fieldset>
+</td>
+</tr>
+</table>
+</body>
+</html>
